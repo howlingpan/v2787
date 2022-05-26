@@ -5,8 +5,8 @@ enable_debug_logging = False
 max_upload_size = 1024
 
 [file_manager]
-config_path = /home/howlingpan/klipper_config
-log_path = /home/howlingpan/klipper_logs
+config_path = /home/pi/klipper_config
+log_path = /home/pi/klipper_logs
 enable_object_processing = False
 
 [authorization]
@@ -34,11 +34,11 @@ refresh_interval = 168
 [update_manager mainsail]
 type = web
 repo = mainsail-crew/mainsail
-path = /home/howlingpan/mainsail
+path = /home/pi/mainsail
 
 [update_manager client z_calibration]
 type = git_repo
-path = /home/howlingpan/klipper_z_calibration
+path = /home/pi/klipper_z_calibration
 origin = https://github.com/protoloft/klipper_z_calibration.git
 install_script = install.sh
 
