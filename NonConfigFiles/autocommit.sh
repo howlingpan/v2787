@@ -5,19 +5,19 @@
 ### the listed folders, just keep that line commented out.        ###
 #####################################################################
 ### Path to your config folder you want to backup
-config_folder=/home/fly/klipper_config
+config_folder=~/klipper_config
 
-### Path to your Klipper folder, by default that is '/home/fly/klipper'
-klipper_folder=/home/fly/klipper
+### Path to your Klipper folder, by default that is '~/klipper'
+klipper_folder=~/klipper
 
-### Path to your Moonraker folder, by default that is '/home/fly/moonraker'
-moonraker_folder=/home/fly/moonraker
+### Path to your Moonraker folder, by default that is '~/moonraker'
+moonraker_folder=~/moonraker
 
-### Path to your Mainsail folder, by default that is '/home/fly/mainsail'
-mainsail_folder=/home/fly/mainsail
+### Path to your Mainsail folder, by default that is '~/mainsail'
+mainsail_folder=~/mainsail
 
-### Path to your Fluidd folder, by default that is '/home/fly/fluidd'
-#fluidd_folder=/home/fly/fluidd
+### Path to your Fluidd folder, by default that is '~/fluidd'
+#fluidd_folder=~/fluidd
 
 #####################################################################
 ################ !!! DO NOT EDIT BELOW THIS LINE !!! ################
