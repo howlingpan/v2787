@@ -1,12 +1,2 @@
-*.log
-.fluidd.json
-.mainsail.json
-.variables.stb
+NonConfigFiles/e131/
 printer-*.cfg
-*.png
-*.csv
-*.jpg
-/logs
-*.txt
-.moonraker.conf.bkp
-.DS_Store
