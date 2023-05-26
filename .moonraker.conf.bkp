@@ -5,7 +5,7 @@ klippy_uds_address = ~/printer_data/comms/klippy.sock
 max_upload_size = 1024
 
 [file_manager]
-enable_object_processing = False
+enable_object_processing = True
 
 [authorization]
 cors_domains = 
@@ -35,4 +35,17 @@ enable_auto_refresh = True
 type = web
 repo = mainsail-crew/mainsail
 path = ~/mainsail
+
+[update_manager led_effect]
+type = git_repo
+path = ~/klipper-led_effect
+origin = https://github.com/julianschill/klipper-led_effect.git
+is_system_service = False
+
+[update_manager voron-klipper-extensions]
+type = git_repo
+path = ~/voron-klipper-extensions
+origin = https://github.com/voidtrance/voron-klipper-extensions.git
+install_script = install-extensions.sh
+managed_services = klipper
 
