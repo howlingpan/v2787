@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!crowsnest.conf
+!mcu.cfg
+!moonraker.conf
+!octoeverywhere.conf
+!overrides.cfg
+!printer.cfg
+!variables.cfg
